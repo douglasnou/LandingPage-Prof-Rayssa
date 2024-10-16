@@ -1,0 +1,86 @@
+%yusei {
+    font-family: var(--yusei);
+    font-weight: 400;
+}
+
+%jakarta {
+    font-family: var(--jakarta);
+    font-weight: 400;
+}
+
+.banner-subtitle {
+    @extend %yusei;
+    font-size: clamp(1.25rem, 1.071rem + 0.476vw, 1.5rem);
+    color: var(--purple-title);
+    line-height: 1.625rem;
+}
+
+.banner-text {
+    @extend %jakarta;
+    font-size: clamp(0.75rem, 0.661rem + 0.238vw, 0.875rem);
+    color: black;
+    line-height: 1.5625rem;
+}
+
+.about-title {
+    @extend %yusei;
+    font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
+    line-height: 1.5625rem;
+    color: var(--purple-title);
+}
+
+.about-text {
+    @extend %jakarta;
+    font-size: clamp(0.75rem, 0.661rem + 0.238vw, 0.875rem);
+    color: black;
+    line-height: 1.5625rem;
+}
+
+.comment-text{
+    @extend %yusei;
+    font-size: clamp(1.25rem, 1.071rem + 0.476vw, 1.5rem);
+    line-height: 1.5625rem;
+    color: white;
+}
+
+.how-title{
+    @extend %yusei;
+    font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
+    line-height: 40px;
+    color: var(--pink-title);
+}
+
+.how-text{
+    @extend %jakarta;
+    font-size: clamp(0.75rem, 0.661rem + 0.238vw, 0.775rem);
+    line-height: 25px;
+    color: white;
+}
+
+.cost-title{
+    @extend %yusei;
+    font-size: clamp(1rem, 1.071rem + 0.476vw, 1.25rem);
+    line-height: 1.5625rem;
+    color: white;
+}
+
+.cost-text{
+    @extend %jakarta;
+    font-size: clamp(0.75rem, 0.661rem + 0.238vw, 0.775rem);
+    line-height: 25px;
+}
+
+.history-text{
+    @extend %jakarta;
+    font-weight: 600;
+    font-size: clamp(0.75rem, 0.661rem + 0.238vw, 0.775rem);
+    line-height: 25px;
+    color: white;
+}
+
+.footer-title{
+    @extend %yusei;
+    font-size: clamp(2rem, 1.821rem + 0.476vw, 2.25rem);
+    line-height: 36px;
+    color: var(--purple-title);
+}

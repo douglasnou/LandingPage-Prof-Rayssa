@@ -1,0 +1,86 @@
+.CommentSection {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, var(--gradient-purple-1) 0%, var(--gradient-purple-2) 100%);
+
+    .CommentsText {
+        width: 70%;
+        display: flex;
+        justify-content: flex-start;
+
+        div {
+            width: 55%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+                width: 18.75rem;
+                text-align: center;
+            }
+        }
+    }
+
+    .CommentsImg {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            margin: auto 20px;
+        }
+    }
+
+    .BtnContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+        a {
+            font-family: var(--jakarta);
+            color: var(--purple-text);
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-align: center;
+            align-content: center;
+
+            background: white;
+            box-shadow: 0px 4px 4px 0px #00000040;
+            border-radius: 14px;
+
+            width: 30%;
+            height: 43px;
+
+            &:hover {
+                background: rgba(255, 225, 225);
+            }
+
+        }
+    }
+
+    .Stars {
+        animation: shake 2s infinite ease-in-out;
+    }
+}
+
+@keyframes shake {
+
+    0% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(-15deg);
+    }
+
+    100% {
+        transform: rotate(15deg);
+    }
+
+}

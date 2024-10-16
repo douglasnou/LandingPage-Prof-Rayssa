@@ -1,0 +1,143 @@
+.AboutSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    .Colors {
+        width: 100%;
+        display: flex;
+
+        .Color1 {
+            width: 20%;
+            height: 11px;
+            background: var(--line-1);
+        }
+
+        .Color2 {
+            width: 20%;
+            height: 11px;
+            background: var(--line-2);
+        }
+
+        .Color3 {
+            width: 20%;
+            height: 11px;
+            background: var(--line-3);
+        }
+
+        .Color4 {
+            width: 20%;
+            height: 11px;
+            background: var(--line-4);
+        }
+
+        .Color5 {
+            width: 20%;
+            height: 11px;
+            background: var(--line-5);
+        }
+    }
+
+    .Container {
+        width: 100%;
+        display: flex;
+        align-items: first baseline;
+        margin-top: 50px;
+
+        .ImgContainer {
+            width: 50%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+
+            .Perfil {
+                width: 405px;
+                height: 405px;
+            }
+
+            .AnimatedImg {
+                width: 500px;
+                height: 550px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-end;
+                position: absolute;
+                bottom: -80px;
+                left: 120px;
+
+                img {
+                    width: 150px;
+                    animation: shake 2s infinite ease-in-out;
+                }
+
+                .ImgDown {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        .TextContainer {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .Paragraph {
+                display: flex;
+                width: 60%;
+                flex-direction: column;
+                align-items: flex-start;
+
+                h2{
+                    margin-bottom: 25px;
+                }
+
+                p{
+                    margin: 10px auto;
+                    text-align: justify;
+
+                    span{
+                        color: var(--pink-text);
+                    }
+                }
+            }
+
+            a{
+                width: 150px;
+                height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                border-radius: 14px;
+                box-shadow: 0px 4px 4px 0px #00000040;
+
+                &:hover{
+                    background: whitesmoke;
+                }
+
+            }
+        }
+    }
+
+    @keyframes shake {
+
+        0% {
+            transform: rotate(15deg);
+        }
+
+        50% {
+            transform: rotate(-15deg);
+        }
+
+        100% {
+            transform: rotate(15deg);
+        }
+
+    }
+}
