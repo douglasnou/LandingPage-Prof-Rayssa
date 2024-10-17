@@ -34,9 +34,7 @@
 
             &:hover {
                 background: linear-gradient(180deg, var(--gradient-green-2) 0%, var(--gradient-green-1) 100%);
-
             }
-
 
             div {
                 width: 100%;
@@ -53,25 +51,43 @@
                     line-height: 19px;
                     color: white;
                 }
-
             }
-
         }
     }
 
     .FooterEnd {
         width: 100%;
         height: 72px;
-
         display: flex;
         justify-content: center;
         align-items: center;
-
         background-color: var(--line-3);
 
-        img{
+        img {
             width: 138px;
             height: 48px;
+        }
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+    .FooterSection {
+        width: 100%;
+        
+
+        .FooterTitle h2 {
+            width: 80%;
+        }
+
+        .FooterBtn a {
+            width: 80%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .FooterEnd{
+            width: 100%;
         }
     }
 }

@@ -16,7 +16,7 @@ export const CommentSection = () => {
             </div>
 
             <div className={styled.CommentsImg}>
-                <img src={Arrow} alt="seta" />
+                <img className={styled.Arrow} src={Arrow} alt="seta" />
                 <img src={Comments1} alt="comentários" />
                 <img src={Comments2} alt="comentários" />
                 <img className={styled.Stars} src={Stars2} alt="estrelas" />
