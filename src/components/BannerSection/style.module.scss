@@ -57,15 +57,19 @@
         align-items: center;
         height: auto;
         margin-bottom: 30px;
+        background-size: contain;
+        background-repeat: repeat-y;
 
         .TextSub, .ImgSub {
             width: 100%;
         }
 
         .TextSub div, .ImgSub div {
-            width: 90%;
+            width: 80%;
             align-items: center;
             text-align: justify;
+            letter-spacing: 0.5px;
+
         }
 
         .TextSub div img {
@@ -74,6 +78,7 @@
 
         .TextSub div p {
             width: 100%;
+            line-height: 20px;
         }
 
         .ImgSub{
