@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
     background: linear-gradient(180deg, var(--gradient-purple-1) 0%, var(--gradient-purple-2) 100%);
 
     .CommentsText {
@@ -30,6 +31,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        .Comments1{
+            width: 300px;
+            height: 220px;
+        }
+        .Comments2{
+            width: 300px;
+            height: 160px;
+        }
 
         img {
             margin: auto 20px;
@@ -114,6 +124,11 @@
         .Stars, .Arrow{
             width: 70px;
             margin: 30px auto;
+        }
+
+        .Comments{
+            width: 300px;
+            height: 220px;
         }
         img {
             margin: 10px 0;
