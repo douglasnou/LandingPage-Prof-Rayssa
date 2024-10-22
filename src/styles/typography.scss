@@ -10,7 +10,7 @@
 
 .banner-subtitle {
     @extend %yusei;
-    font-size: clamp(1.25rem, 1.071rem + 0.476vw, 1.5rem);
+    font-size: clamp(1.25rem, 1.071rem + 0.476vw, 1.8rem);
     color: var(--purple-title);
     line-height: 1.625rem;
 }
@@ -24,7 +24,7 @@
 
 .about-title {
     @extend %yusei;
-    font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
+    font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.75rem);
     line-height: 1.5625rem;
     color: var(--purple-title);
 }
@@ -38,14 +38,14 @@
 
 .comment-text{
     @extend %yusei;
-    font-size: clamp(1.25rem, 1.071rem + 0.476vw, 1.5rem);
+    font-size: clamp(1.25rem, 1.071rem + 0.476vw, 1.8rem);
     line-height: 1.5625rem;
     color: white;
 }
 
 .how-title{
     @extend %yusei;
-    font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.5rem);
+    font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.75rem);
     line-height: 40px;
     color: var(--pink-title);
 }
@@ -80,7 +80,7 @@
 
 .footer-title{
     @extend %yusei;
-    font-size: clamp(2rem, 1.821rem + 0.476vw, 2.25rem);
+    font-size: clamp(2rem, 1.821rem + 0.476vw, 2.75rem);
     line-height: 36px;
     color: var(--purple-title);
 }
