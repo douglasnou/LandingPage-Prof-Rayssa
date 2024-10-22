@@ -4,7 +4,7 @@ import Heart from "../../assets/heart.png"
 import Crown from "../../assets/crown.png"
 import Arrow from "../../assets/arrow.png"
 import Instagram from "../../assets/Instagram.png"
-import Logo from "../../assets/logo-btn.png"
+import Logo from "../../assets/nome.png"
 
 export const AboutSection = () => {
     return (
@@ -55,8 +55,8 @@ export const AboutSection = () => {
                         </p>
                     </div>
                     <a>
-                        <img src={Instagram} alt="logo instagram" />
-                        <img src={Logo} alt="logo rayssa" />
+                        <img className={styled.Instagram} src={Instagram} alt="logo instagram" />
+                        <img className={styled.Logo} src={Logo} alt="logo rayssa" />
                     </a>
                 </div>
             </div>
