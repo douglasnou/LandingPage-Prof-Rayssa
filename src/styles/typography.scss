@@ -17,21 +17,21 @@
 
 .banner-text {
     @extend %jakarta;
-    font-size: clamp(0.75rem, 0.661rem + 0.238vw, 1rem);
+    font-size: clamp(0.75rem, 0.661rem + 0.478vw, 1.5rem);
     color: black;
-    line-height: 1.5625rem;
+    line-height: 1.9rem;
 }
 
 .about-title {
     @extend %yusei;
     font-size: clamp(1.875rem, 1.429rem + 1.19vw, 2.75rem);
-    line-height: 1.5625rem;
+    line-height: 1.9rem;
     color: var(--purple-title);
 }
 
 .about-text {
     @extend %jakarta;
-    font-size: clamp(0.75rem, 0.661rem + 0.238vw, 1rem);
+    font-size: clamp(0.75rem, 0.661rem + 0.476vw, 1.5rem);
     color: black;
     line-height: 1.5625rem;
 }
@@ -52,29 +52,29 @@
 
 .how-text{
     @extend %jakarta;
-    font-size: clamp(0.75rem, 0.661rem + 0.238vw, 1rem);
-    line-height: 25px;
+    font-size: clamp(0.75rem, 0.661rem + 0.478vw, 1.5rem);
+    line-height: 30px;
     color: white;
 }
 
 .cost-title{
     @extend %yusei;
-    font-size: clamp(1rem, 1.071rem + 0.476vw, 1.25rem);
+    font-size: clamp(1rem, 1.071rem + 0.476vw, 1.5rem);
     line-height: 1.5625rem;
     color: white;
 }
 
 .cost-text{
     @extend %jakarta;
-    font-size: clamp(0.75rem, 0.661rem + 0.238vw, 1rem);
-    line-height: 25px;
+    font-size: clamp(0.75rem, 0.661rem + 0.500vw, 1.5rem);
+    line-height: 30px;
 }
 
 .history-text{
     @extend %jakarta;
     font-weight: 600;
-    font-size: clamp(0.75rem, 0.661rem + 0.238vw, 1rem);
-    line-height: 25px;
+    font-size: clamp(0.75rem, 0.661rem + 0.500vw, 1.5rem);
+    line-height: 30px;
     color: white;
 }
 
