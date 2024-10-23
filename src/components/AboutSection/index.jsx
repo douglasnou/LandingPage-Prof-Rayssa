@@ -54,7 +54,7 @@ export const AboutSection = () => {
                             </strong>
                         </p>
                     </div>
-                    <a>
+                    <a href="https://www.instagram.com/englishwithrayssa/" target="blank">
                         <img className={styled.Instagram} src={Instagram} alt="logo instagram" />
                         <img className={styled.Logo} src={Logo} alt="logo rayssa" />
                     </a>

@@ -16,7 +16,7 @@ export const CostSection = () => {
                         As turmas não abertas periodicamente e cada uma delas <strong>possui valores e bônus diferentes</strong> que ficam disponíveis por tempo limitado.  Mas você vai receber os detalhes direto no seu <span>WhatsApp todas as informações</span> ⚠️
                     </p>
                     <div className={styled.Btn}>
-                        <a>GARANTA SUA VAGA</a>
+                        <a href="https://api.whatsapp.com/send?phone=+559891041024&text=Oie%2C+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+as+aulas+de+ingl%C3%AAs%21+%F0%9F%98%89%F0%9F%87%BA%F0%9F%87%B8" target="blank">GARANTA SUA VAGA</a>
                     </div>
                 </div>
             </div>

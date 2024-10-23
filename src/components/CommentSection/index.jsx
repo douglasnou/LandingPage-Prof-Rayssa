@@ -23,7 +23,7 @@ export const CommentSection = () => {
             </div>
 
             <div className={styled.BtnContainer}>
-                <a>QUERO GARANTIR MINHA VAGA</a>
+                <a href="https://api.whatsapp.com/send?phone=+559891041024&text=Oie%2C+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+as+aulas+de+ingl%C3%AAs%21+%F0%9F%98%89%F0%9F%87%BA%F0%9F%87%B8" target="blank">QUERO GARANTIR MINHA VAGA</a>
             </div>
         </section>
     )
